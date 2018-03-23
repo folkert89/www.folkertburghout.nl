@@ -1,0 +1,46 @@
+ul {
+	list-style-type: none;
+	max-width: 800px;
+	margin: auto;
+	padding: 0;
+}
+
+ul li {
+	border-right: 1px solid grey;
+	border-top: 1px solid grey;
+	border-left: 1px solid grey;
+}
+/*ul li:last-child {
+	border-bottom: : 1px solid grey;
+}how to reach the last child???? ivm ajax..*/
+#online li a {
+	background-color: green;
+	color: white;
+	opacity: 0.9;
+}
+#online li a:hover {
+	background-color: green;
+	opacity: 1;
+}
+#offline li a {
+	background-color: red;
+	color: white;
+	opacity: 0.9;
+}
+#offline li a:hover {
+	background-color: red;
+	opacity: 1;
+}
+ul li a {
+	padding: 12px;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+ul li a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+body {
+	padding: 10px;
+}

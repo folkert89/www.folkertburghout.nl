@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+body {
+  background-color: #C6D8D3;
+  margin: 0;
+}
+
+h1, h2, p {
+  color: black;
+  text-align: center;
+}
+
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10px;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 100px;
+}
+
+.topnav li {
+  float: left;
+}
+
+.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+
+.topnav li a:hover {
+  background-color: #111;
+}
+
+.topnav li a.active {
+  background-color: #4CAF50;
+}
+
+.topnav li.right {
+  float: right;
+}
+
+#mainheader {
+  background-image: url(images/computer.jpg);
+  height: auto;
+  width: 100%;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+  position: relative;
+  top: 100px;
+  margin: auto;
+  display: block;
+}
+
+#about h3 small {
+  text-align: left;
+  display: inline-block;
+  padding: 10px 0;
+  line-height: 130%;
+}
+
+.caption img, .thanks img {
+  max-width: 100%;
+  margin: auto;
+  height: auto;
+  display: block;
+}
+
+.caption p {
+  font-size: 150%;
+  padding: 5px border: 1px solid black;
+  text-decoration: none;
+  /*waarom werkt dit niet? heb het ook maar op hover gedaan werkt ook niet*/
+}
+
+.caption p:hover {
+  text-decoration: none;
+  /*doet dus niets*/
+}
+
+#citaat {
+  text-align: center;
+}
+
+.spaceBelow {
+  padding-bottom: 20px;
+}
+
+i {
+  color: white;
+  text-align: center;
+  display: block;
+}
+iframe {
+  padding: 5%;
+}
+/*
+iframe {
+    width: 100%;
+    display: block;
+    height: 100%; waarom kan hier geen height auto???. probeer maar
+    margin-bottom:20px;
+}
+*/
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  /* hoe krijg ik deze twee knoppen naast elkaar? float of inline-block werkt niet*/
+  width: 48%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-right: 2%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+input[type=reset] {
+  width: 48%;
+  background-color: #685762;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left: 2%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=reset]:hover {
+  background-color: #3F353C;
+}
+
+.formulier {
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 700px;
+  margin: 10px auto 40px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  font-size: 150%;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* voor mobiele telefoons and pads: */
+  .topnav li.right, .topnav li {
+    float: none;
+  }
+  .topnav {
+    margin: 0;
+  }
+  .avatar {
+    top: 0px;
+  }
+  /*waarom werkt dit niet?*/
+  #mainheader {
+    padding: 10px 0;
+  }
+}

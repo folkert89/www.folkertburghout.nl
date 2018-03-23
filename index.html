@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<!--met responsive doet ie vaag. vergelijk met website oud-->
+
+<head>
+  <!-- en wat is de plek aan de rechterkant? Hoe vind je t probleem met console? nu lastig te zien waar het veroorzaakt word in zo een bestand-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Folkert</title>
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="custom.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="mainheader">
+    <img class="avatar" src="images/Folkert.png" alt="Folkert">
+  </div>
+
+  <ul class="topnav">
+    <li><a class="active" href="#about">Over mij</a></li>
+    <li><a href="#project">Projecten</a></li>
+    <li class="right"><a href="#contact">Contact</a></li>
+    <li class="right"><a href="#vids">Video's</a></li>
+  </ul>
+  <div class="container text-center">
+    <div id="about">
+      <h2>Over mij</h2>
+      <h3>Creatief, enthousiast en veel inlevingsvermogen<br><small>De afgelopen maanden ben ik fulltime bezig geweest om mezelf om te scholen tot software engineer. Ik doe dit onder andere aan de hand van de cursus FreeCodeCamp.<span class="moreinfo" id="info1"> In deze cursus leer ik alles van JavaScript en word ik opgeleid tot fullstack developer. Nu wil ik graag mijn kennis tot dusver in praktijk brengen en ben ik klaar om aan de slag te gaan als front-end ontwikkelaar.<br><br>
+
+Mijn achtergrond is voornamelijk marketing en business gerelateerd en hier heb ik veel aan gehad. Naast het commercieel bezig zijn houd ik erg van het maken, creeeren en daadwerkelijk uitwerken van ideeen. De skill om te kunnen programmeren en de mindset lijken mij heel waardevol en dit heeft mij er toe gezet dit te leren. Voorheen heb ik ook veel samengewerkt met software engineers. Om eerlijk toe te geven keek ik altijd met een schuin oog naar wat zij neerzette en konden realiseren.<br><br>
+
+Als persoon zelf ben ik heel creatief en heb altijd ideeen. Ik zet me enorm in en zorg ervoor dat ik hetgeen dat ik voor ogen heb waarmaak. Voor mij is programmeren ook het bouwen van gedachten en ideeen en ik zie het eigenlijk als een spel.<br><br>
+
+De reden dat ik voor JavaScript als eerste taal heb gekozen is omdat hiermee zowel in de frontend als de backend kan worden gewerkt en hiermee bijna alles gemaakt kan worden. Het word ook wel de lingua franca van het web genoemd. De andere talen en tools waar ik al mee werk zijn: HTML 5, CSS 3, Jquery, Bootstrap, Github, WordPress, Photoshop.<br><br>
+
+Bekijk ook mijn persoonlijke website en portfolio op www.folkertburghout.nl (uiteraard altijd en constant in ontwikkeling).<br><br>
+
+<q>The computer programmer is a creator of universes for which he alone is responsible. Universes of virtually unlimited complexity can be created in the form of computer programs.</q><br> <cite>—Joseph Weizenbaum, Computer Power and Human Reason</cite></span></small>
+      <a class="more" target="1">Lees meer</a>
+    </div>
+    <div class="row">
+    <h2 class="spaceBelow" id="project">Projecten</h2>
+      <div class="caption col-xs-6 col-md-4">
+        <a href="websites/index.html"><img src="images/browser.png" alt="mybff" width="75" height="75">
+          <p>Websites</p>
+        </a>
+      </div>
+      <div class="caption col-xs-6 col-md-4">
+        <a href="API's/index.html"><img src="images/api.png" alt="mybff" width="75" height="75">
+          <p>REST API's</p>
+        </a>
+      </div>
+      <div class="caption col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-0">
+        <a href="http://www.mybff.nl"><img src="images/code.png" alt="mybff" width="75" height="75">
+          <p>Future projects</p>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="row" id="vids">
+      <h2>Mijn video's</h2>
+      <div class="col-sm-6">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3y4G2FyxZnY"></iframe>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/G9YZ95Otkv0"></iframe>
+        </div>
+      </div>
+      <div class="col-sm-6 col-sm-offset-3">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed//IVrDoaDp0-o"></iframe>
+        </div>
+      </div>
+    </div>
+
+
+    <h2>Mijn Hobbies</h2>
+    <p>Doe hier iets cools met animatie. jquery ofzelfs dat van nathan. maar in ieder geval kitesurfen, piano, reisfoto's, snowboardfilm ed.(alleen bij hoveren dat die zichtbaar wordt ofzo.</p>
+
+
+    <div class="formulier" id="contact">
+    <h2>Contact</h2>
+    <p>neem contact op met mij etc. kijk bij wat jesse heeft..</p>
+      <form action="mailto:folkertburghout@gmail.com" method="post" enctype="text/plain">
+        <label for="fname">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email..">
+
+        <label for="Cment">Comment:</label>
+        <input type="text" name="comment" size="350" placeholder="Type text..">
+        <span class="row">
+          <input class="col-xs-12 col-md-6" type="submit" value="Submit">
+          <input class="col-xs-12 col-md-6" type="reset" value="Reset">
+        </span>
+        <!--ik vind het met de buttons heel moeilijk. wil voor kleine schermen onder elkaar. en voor grote naast elkaar maar kleine ruimte ertussen.. Ook wil ik een groot textfield bij Cment-->
+      </form>
+    </div>
+
+    <div class="thanks content-center">
+      <h2>Yeah, you read to the end! Thanks!!!</h2>
+      <img src="images/cheer gif minions.gif" alt="Thanks for reading to the end!">
+    </div>
+  </div>
+  <div class="container-fluid text-center">
+    <footer class="row">
+      <div class="col-md-6">T: 06-37295957</div>
+      <div class="col-md-6">E: contact@folkertburghout.nl</div>
+      <br></br>
+      <div class="col-md-6 col-md-offset-3">© Designed by Folkert Burghout</div>
+      <br></br>
+      <div class="col-xs-12">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> and <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a>        from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    </footer>
+</body>
+<!--http://microsoftmonamour.com/#page-3 volgende sprint hierin. doe voor elke row een flip..-->
+
+<!--About me
+
+Hi there! I’m Mathias. I work on V8 at Google. HTML, CSS, JavaScript, Unicode, performance, and security get me excited. If you managed to read this far without falling asleep, you should follow me on Twitter and GitHub.-->
+</html>

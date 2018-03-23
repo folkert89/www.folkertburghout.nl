@@ -1,0 +1,12 @@
+body {
+	margin-top: 20px;
+	background-color: black;  /*waarom doet die niks bij body??*/
+}
+
+.jumbotron {
+	margin-top: 20px;
+}
+
+#temper {
+	font-size: 200%;
+}

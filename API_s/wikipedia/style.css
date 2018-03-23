@@ -1,0 +1,60 @@
+body {
+	padding-top: 30px;
+  background-image: url('https://static.pexels.com/photos/76969/cold-front-warm-front-hurricane-felix-76969.jpeg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /*wat is de witte ruimte onderaan pagina?*/
+}
+
+input[type=search]{
+  text-align: center;
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
+  background-position: 370px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+}
+ul{
+  width:100%;
+  padding: 0;
+
+}
+ul li  {
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  list-style-type: none;
+  width: 100%;
+  text-align: left;
+  padding: 5px 10px;
+  background-color: white;
+  display: block;
+}
+ul li:last-child {  /*werkt niet waarom doet die dit bij elke????*/
+  border-bottom: 1px solid grey;
+}
+ul li:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+
+#lists a {
+  text-decoration: none;
+  display: block;
+  width:100%;
+}
+
+form {
+  max-width: 400px;
+	margin: 20px auto;
+  padding:0;
+}
+.jumbotron {
+  opacity: 0.9;
+}
+
